@@ -1,0 +1,25 @@
+body {
+    background-color: #ddf9fc;
+    text-align: center;
+    margin: 5px;
+}
+.segundofondo {
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    font-family: sour gummy;
+    font-size: 50px;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    width: 20px;
+}
