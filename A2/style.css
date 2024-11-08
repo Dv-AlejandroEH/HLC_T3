@@ -2,6 +2,8 @@ body {
     background-color: #ddf9fc;
     text-align: center;
     margin: 5px;
+    font-family: sour gummy;
+    color: #57aeb8;
 }
 .segundofondo {
     background-color: #ffffff;
@@ -13,13 +15,24 @@ body {
 }
 h1 {
     text-align: center;
-    font-family: sour gummy;
-    font-size: 50px;
+    font-size: 40px;
+    text-shadow: 1px 2px 3px gray;
+}
+h2 {
+    text-shadow: 1px 2px 3px gray;
 }
 form {
-    display: flex;
-    justify-content: space-between;
+    text-align: left;
+    margin: 20px;
+}
+select {
+    border-radius: 3px;
+    margin-right: 25px;
+    border: 1px solid #57aeb8;
+    height: 30px;
 }
 input {
-    width: 20px;
+    border-radius: 3px;
+    margin-right: 25px;
+    border: 1px solid #57aeb8;
 }
