@@ -15,21 +15,21 @@
     <h1>Flexbox Display</h1>
     <form id="flexForm">
         <label for="flexDirection">flex-direction:</label>
-        <select id="flexDirection" type="text">
+        <select id="flexDirection">
             <option value="row">row</option>
             <option value="column">column</option>
         </select>
         <label for="justifyContent">justify-content:</label>
-        <select id="justifyContent" type="text">
+        <select id="justifyContent">
             <option value="flex-start">flex-start</option>
             <option value="flex-end">flex-end</option>
             <option value="center">center</option>
             <option value="space-between">space-between</option>
-            <option value="space-arround">space-arround</option>
+            <option value="space-around">space-around</option>
             <option value="space-evenly">space-evenly</option>
         </select>
-        <label for="alignItems">aling-items:</label>
-        <select id="alingnItems" type="text">
+        <label for="alignItems">align-items:</label>
+        <select id="alignItems">
             <option value="stretch">stretch</option>
             <option value="flex-start">flex-start</option>
             <option value="flex-end">flex-end</option>
@@ -37,16 +37,16 @@
             <option value="baseline">baseline</option>
         </select>
         <label for="flexWrap">flex-wrap:</label>
-        <select id="flexWrap" type="text">
-            <option value="nonwarp">nowarp</option>
+        <select id="flexWrap">
+            <option value="nowrap">nowrap</option>
             <option value="wrap">wrap</option>
-            <option value="reverse-wrap">reverse-wrap</option>
+            <option value="wrap-reverse">wrap-reverse</option>
         </select>
     </form>
     <div class="container" id="flexContainer">
-        <div class="item" id="item1"></div>
-        <div class="item" id="item2"></div>
-        <div class="item" id="item3"></div>
+        <div class="item" id="item1"><p>Div 1</p></div>
+        <div class="item" id="item2"><p>Div 2</p></div>
+        <div class="item" id="item3"><p>Div 3</p></div>
     </div>
     <h2>Controles para Div 1</h2>
     <label for="width1">width:</label>
@@ -54,21 +54,21 @@
     <label for="height1">height:</label>
     <input type="text" id="height1">
     <label for="order1">order:</label>
-    <input type="text" id="order1">
+    <input type="number" id="order1">
     <h2>Controles para Div 2</h2>
     <label for="width2">width:</label>
     <input type="text" id="width2">
     <label for="height2">height:</label>
     <input type="text" id="height2">
     <label for="order2">order:</label>
-    <input type="text" id="order2">
+    <input type="number" id="order2">
     <h2>Controles para Div 3</h2>
     <label for="width3">width:</label>
     <input type="text" id="width3">
     <label for="height3">height:</label>
     <input type="text" id="height3">
     <label for="order3">order:</label>
-    <input type="text" id="order3">
+    <input type="number" id="order3">
 </div>
 <!-- Fin código HTML -->
 <script>

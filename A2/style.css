@@ -10,6 +10,7 @@ body {
     border-radius: 10px;
     text-align: center;
     width: 70%;
+    height: 500px;
     margin: 0 auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -19,7 +20,7 @@ h1 {
     text-shadow: 1px 2px 3px gray;
 }
 h2 {
-    text-shadow: 1px 2px 3px gray;
+    text-shadow: 1px 2px 4px rgb(163, 162, 162);
 }
 form {
     text-align: left;
@@ -35,4 +36,22 @@ input {
     border-radius: 3px;
     margin-right: 25px;
     border: 1px solid #57aeb8;
+}
+.item {
+    background-color: #9edfe3;
+    margin: 7px;
+    justify-content: center;
+    transition: 0.2s;
+    padding: 0px 15px 0 15px;
+}
+.item p {
+    margin-top: 8px;
+}
+.container {
+    background-color: #e5f3f6;
+    display: flex;
+    width: 500px;
+    height: 150px;
+    border-radius: 5px;
+    margin-left: 125px;
 }
