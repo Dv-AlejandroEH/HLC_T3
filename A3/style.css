@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: ;
+}
+header {
+    background-color: #212429;
+    padding: 10px;
+}
+nav {
+    text-align: right;
+}
+nav a {
+    text-decoration: none;
+    color: darkgray;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+nav a:hover {
+    color: #f2f2f2;
+}
+.activo {
+    color: white;
+}
+.titulo {
+    background-color: #188754;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
